@@ -1,0 +1,95 @@
+/* INICIO ESTILOS NAV */
+nav {
+    background-color: #373A3C;
+}
+/* FIN ESTILOS NAV */
+
+
+/* INICIO ESTILOS header */
+
+header {
+    height: 55vw;
+    min-height: 608px;
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 40px;
+    padding-top: 90px;
+}
+
+/* FIN ESTILOS HEADER */
+
+
+/* INICIO ESTILOS SECCIÓN ACERCA DE MÍ */
+
+#aboutme i {
+    font-size: 70px;
+}   
+
+/* FIN ESTILOS SECCIÓN ACERCA DE MÍ */
+
+
+#cards .body-secundario{
+    height: 60px;
+}   
+
+
+
+
+/* INICIO REGLAS PARA PANTALLAS GRANDES DESKTOP */
+
+@media (min-width: 768px) {   /* MEDIA QUERIES */
+
+    /* INICIO ESTILOS header */
+    header h1 {
+        font-size: 70px;
+    }
+
+    header p {
+        font-size: 30px;
+    }
+
+    .wrapper-contenido-header{
+        padding-left: 15vw;
+    }
+
+    /* FIN ESTILOS header */
+}
+
+
+/* FIN REGLAS PARA PANTALLAS GRANDES */
+
+#section h5{
+
+    width: 932px;
+    height: 59px;
+}
+
+footer{
+    font-family: "Raleway", sans-serif;
+}
+#contacto form button{
+    background-color:#17A2B8 ;
+    color: #FFFFFF;
+
+}
+h2{
+    text-align: center;
+    padding: 50px;
+    color: #FFFFFF;
+    font-size: 50px;
+    width:auto
+   
+}
+
+#cards{
+    background-color:#17A2B8 ;
+}
+
+
+#contacto p{
+    font-size: 16px;
+}
